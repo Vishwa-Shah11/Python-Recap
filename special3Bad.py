@@ -14,5 +14,10 @@ def special3Bad(L):
     else:
         print("No exception occurred")
 
+L = [4, 2, 8]
+L = [4, 2, 4]
+L = [8, 4, 16]
+L = [48, 6, 36]
 L = [44, 6, 36]
+
 print(special3Bad(L))

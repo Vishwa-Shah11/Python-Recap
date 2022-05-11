@@ -14,4 +14,8 @@ def isSymmetricBad(L):
         print("No exception occurred")
 
 L = [2, 4, 6]
+L = [1, 2, 3, 4, 3, 2, 1]
+L = [2, 2, 2, 2, 2, 2]
+L = [1, 1, 1, 1, 1, 1, 1]
+L = [8]
 print(isSymmetricBad(L))
